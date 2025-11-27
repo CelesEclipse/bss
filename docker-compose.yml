@@ -1,0 +1,11 @@
+services:
+  bss-api:
+    image: nvashinki/bss-api:prod
+    container_name: bss-api
+    environment:
+      API_HOST: 0.0.0.0
+      API_PORT: 2636
+    ports:
+      - "2636:2636"
+    restart: unless-stopped
+

@@ -18,3 +18,4 @@ threadpoolctl==3.6.0
 fastapi
 uvicorn
 python-dotenv
+python-multipart
